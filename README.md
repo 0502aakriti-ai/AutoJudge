@@ -14,15 +14,25 @@ A simple web interface is provided using **Streamlit**.
 
 ## 📂 Dataset
 
-The dataset consists of programming problems with the following fields:
-- `title`
-- `description`
-- `input_description`
-- `output_description`
-- `problem_class` (Easy / Medium / Hard)
-- `problem_score` (numerical difficulty)
+The dataset used in this project contains programming problems annotated with
+difficulty class and numerical difficulty score.
 
-Each data sample is stored in **JSONL format**.
+Each data sample includes:
+- Problem title
+- Problem description
+- Input description
+- Output description
+- Difficulty class (Easy / Medium / Hard)
+- Difficulty score (numerical)
+
+The dataset is provided in **JSONL format** and can be accessed here:
+
+🔗 Dataset link:  
+https://raw.githubusercontent.com/AREEG94FAHAD/TaskComplexityEval-24/main/problems_data.jsonl
+
+> Note: The dataset is not uploaded to this repository due to size constraints
+and is accessed directly from the source.
+
 
 ---
 
