@@ -62,6 +62,36 @@ and is accessed directly from the source.
 
 ---
 
+## 📊 Evaluation Metrics
+
+The performance of the models was evaluated using standard machine learning metrics.
+
+### 🔹 Classification (Difficulty Class Prediction)
+- **Accuracy**: Measures the proportion of correctly predicted difficulty classes (Easy / Medium / Hard).
+- A confusion matrix was also used to analyze class-wise prediction performance.
+- <img width="706" height="591" alt="Screenshot 2026-01-03 221507" src="https://github.com/user-attachments/assets/da960245-b2a0-43a5-995a-39cf5c2d4821" />
+
+
+### 🔹 Regression (Difficulty Score Prediction)
+- **Mean Absolute Error (MAE)**: Measures the average absolute difference between predicted and actual difficulty scores.
+- **Root Mean Squared Error (RMSE)**: Penalizes larger prediction errors and provides insight into prediction variance.
+- <img width="635" height="173" alt="Screenshot 2026-01-03 221526" src="https://github.com/user-attachments/assets/157edbcd-a8b1-475c-b41f-310d92e7c96d" />
+
+
+These metrics help assess both the correctness of difficulty classification and the reliability of numerical difficulty score prediction.
+
+---
+
+## 📌 Model Performance Summary
+
+| Task | Metric | Value |
+|----|------|------|
+| Classification | Accuracy | 0.50789 |
+| Regression | MAE | 3.69918 |
+| Regression | RMSE | 4.70622 |
+
+
+
 ## 🌐 Web Application
 
 The Streamlit interface allows users to:
