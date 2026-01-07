@@ -121,7 +121,8 @@ The link for the demo video of the project is as follows:
 
 https://drive.google.com/file/d/1Wszvi0xSVsOW5gYlfA7G45LLaA3tYMh2/view?usp=sharing
 
-The demo video (mp4 file) has also been uploaded in the GitHub repository.
+---
+
 
 ## 📊 Results
 
